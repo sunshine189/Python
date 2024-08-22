@@ -33,5 +33,8 @@ def minimum_cost_path(matrix: list[list[int]]) -> int:
 
 if __name__ == "__main__":
     import doctest
-
+    a = minimum_cost_path([[2, 1, 4], [2, 1, 3], [3, 2, 1]])
+    print(a)  # Output: 7
+    
     doctest.testmod()
+    

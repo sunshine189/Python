@@ -26,3 +26,6 @@ if __name__ == "__main__":
     import doctest
 
     doctest.testmod()
+    a = mean([3, 6, 9, 12, 15, 18, 21])
+    print(a)
+#

@@ -91,4 +91,4 @@ if __name__ == "__main__":
     doctest.testmod()
 
     test_abs_val()
-    print(abs_val(-34))  # --> 34
+    print(abs_val(-10))  # --> 34
